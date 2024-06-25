@@ -17,7 +17,7 @@ func main(){
 		i=i+1
 	}
 
-	for i := range 3 {
+	for i:= range 3 {
         fmt.Println("range", i)
     }
 }
