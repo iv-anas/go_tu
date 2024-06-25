@@ -1,8 +1,8 @@
-package main
+package values
 
 import "fmt"
 
-func main() {
+func Values() {
 	fmt.Println("int:",34+56)
 	fmt.Println("float:",634/56)
 	fmt.Println("string:","instaview"+" "+"view")
