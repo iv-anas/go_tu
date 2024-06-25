@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	// "time"
+)
 
 func main() {
     // Create a channel named 'messages' for passing strings
@@ -17,4 +20,26 @@ func main() {
 
     // Print the received message
     fmt.Println(msg)
+
+	//buffered channel
+	message := make(chan string, 2)
+	message <- "buffered"
+    message <- "channel"
+
+	msg1 := <-message
+		fmt.Println(msg1)
+
+	// time.Sleep(time.Second)
+	go func() {
+        // Send "ping" into the 'messages' channel
+        msg1 := <-message
+		fmt.Println(msg1)
+    }()
+
+	
+
+
+
+
 }
+
