@@ -1,8 +1,8 @@
-package main
+package vari
 
 import "fmt"
 
-func main() {
+func Vari() {
 	var v1 string = "hello"
 	fmt.Println(v1)
 	var v2, v3 int = 11, 22

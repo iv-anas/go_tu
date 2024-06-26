@@ -1,4 +1,4 @@
-package main
+package rec
 
 import "fmt"
 
@@ -10,7 +10,7 @@ func fact(n int) int{
 	return n*fact(n-1)
 }
 
-func main() {
+func Rec() {
 	var n int
 	fmt.Scanln(&n)
 

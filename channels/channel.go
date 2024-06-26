@@ -1,11 +1,11 @@
-package main
+package channels
 
 import (
 	"fmt"
 	// "time"
 )
 
-func main() {
+func Channels() {
     // Create a channel named 'messages' for passing strings
     messages := make(chan string)
 

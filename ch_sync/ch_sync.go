@@ -1,4 +1,4 @@
-package main
+package ch_sync
 
 import (
     "fmt"
@@ -13,7 +13,7 @@ func worker(done chan bool) {
     done <- true
 }
 
-func main() {
+func Ch_sync() {
 
     done := make(chan bool, 1)
     go worker(done)

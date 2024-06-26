@@ -1,8 +1,8 @@
-package main
+package array
 
 import "fmt"
 
-func main() {
+func Array() {
 	var a [5]int
 	fmt.Println("empty array :",a)   //zero value
 

@@ -1,4 +1,4 @@
-package main
+package clo
 
 import "fmt"
 
@@ -10,7 +10,7 @@ func intSeq() func() int {
     }
 }
 
-func main() {
+func Clo() {
 
     nextInt := intSeq()
 

@@ -1,4 +1,4 @@
-package main
+package cons_t
 
 import (
     "fmt"
@@ -7,7 +7,7 @@ import (
 
 const gl string = " const and var can be declare outside main function"
 
-func main(){
+func Cons_t(){
 	fmt.Println(gl)
 
 	const rad= 7

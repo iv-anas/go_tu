@@ -1,4 +1,4 @@
-package main
+package methods
 import "fmt"
 type rect struct {
     width, height int
@@ -13,7 +13,7 @@ func (r rect) perim() int {
     return 2*r.width + 2*r.height
 }
 
-func main(){
+func Methods(){
 	var a, b int
 	fmt.Scanln(&a)
 	fmt.Scanln(&b)

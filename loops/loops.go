@@ -1,10 +1,10 @@
-package main
+package loops
 
 import "fmt"
 
 
 
-func main(){
+func Loops(){
 	for i := 0; i < 5; i++ {
         fmt.Println(i)
     }

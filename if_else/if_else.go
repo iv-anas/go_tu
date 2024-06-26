@@ -1,11 +1,11 @@
-package main
+package if_else
 
 import (
 	"fmt"
 	// "errors"
 )
 
-func main() {
+func If_else() {
 	
 	// if x ==  {
     //     return x, errors.New("empty name")

@@ -1,4 +1,4 @@
-package main
+package goroutine
 
 import (
     "fmt"
@@ -11,7 +11,7 @@ func f(from string) {
     }
 }
 
-func main() {
+func Goroutine() {
 
     f("direct")
 

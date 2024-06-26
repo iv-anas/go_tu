@@ -1,11 +1,11 @@
-package main
+package swt
 
 import (
 	"fmt"
 	"time"
 )
 
-func main() {
+func Switch() {
 	t := time.Now()
 
 	switch{

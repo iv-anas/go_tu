@@ -1,4 +1,4 @@
-package main
+package ch_dirc
 
 import "fmt"
 
@@ -11,7 +11,7 @@ func pong(pings <-chan string, pongs chan<- string) {
     pongs <- msg
 }
 
-func main() {
+func Ch_dirc() {
     pings := make(chan string, 1)
     pongs := make(chan string, 1)
     ping(pings, "passed message")

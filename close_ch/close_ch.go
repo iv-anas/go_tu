@@ -1,8 +1,8 @@
-package main
+package close_ch
 
 import "fmt"
 
-func main() {
+func Close_ch() {
     jobs := make(chan int, 5)
     done := make(chan bool)
 

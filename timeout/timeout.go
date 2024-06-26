@@ -1,11 +1,11 @@
-package main
+package timeout
 
 import (
     "fmt"
     "time"
 )
 
-func main() {
+func Timeout() {
 
     c1 := make(chan string, 1)
     go func() {

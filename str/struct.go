@@ -1,4 +1,4 @@
-package main
+package str
 
 import "fmt"
 
@@ -7,7 +7,7 @@ type person struct {
 	id   int
 }
 
-func main() {
+func Struct() {
 	// Structs are mutable.
 	var s1 person
 	fmt.Scanln(&s1.name)

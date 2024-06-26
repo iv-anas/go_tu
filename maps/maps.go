@@ -1,11 +1,11 @@
-package main
+package maps
 
 import (
 	"fmt"
 	"maps"
 )
 
-func main() {
+func Maps() {
 	var m1 map[string]int                // Declares a nil map
 	m2 := make(map[string]int)           // Creates an empty map
 	m3 := map[string]int{"a": 1, "b": 2} // Creates and initializes a map

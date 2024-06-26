@@ -1,4 +1,4 @@
-package main
+package st_emb
 
 import "fmt"
 
@@ -15,7 +15,7 @@ type container struct {
     str string
 }
 
-func main() {
+func St_emb() {
 
     co := container{
         base: base{
