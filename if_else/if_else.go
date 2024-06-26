@@ -1,9 +1,16 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	// "errors"
+)
 
 func main() {
 	
+	// if x ==  {
+    //     return x, errors.New("empty name")
+    // }
+
 	n:=9
 
 	if n%2==0{

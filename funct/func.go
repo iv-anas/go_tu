@@ -1,4 +1,4 @@
-package main
+package funct
 
 import "fmt"
 
@@ -14,7 +14,7 @@ func vals() (int, int) {
 	return a,b
 
 }
-func main() {
+func Func() {
 	var a, b, c int
 	fmt.Scanln(&a)
 	fmt.Scanln(&b)
