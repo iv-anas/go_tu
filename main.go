@@ -1,9 +1,9 @@
 package main
 
 import (
-	// "github.com/iv-ana/go_tu/funct"
-	// "github.com/iv-ana/go_tu/values"
-	// "github.com/iv-ana/go_tu/hw"
+	"github.com/iv-ana/go_tu/funct"
+	"github.com/iv-ana/go_tu/values"
+	"github.com/iv-ana/go_tu/hw"
 	// "flag"
 	"log"
 	"net/http"
@@ -13,9 +13,9 @@ import (
 )
 
 func main(){
-	// hw.Hello("")
-	// funct.Func()
-	// values.Values()
+	hw.Hello("")
+	funct.Func()
+	values.Values()
 	// var dir string
 
 	// flag.StringVar(&dir, "dir", ".", "the directory to serve files from. Defaults to the current dir")
