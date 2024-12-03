@@ -36,6 +36,7 @@ func Array() {
 			fmt.Print(matrix[i][j]," ")
 		}
 		fmt.Println()
+		fmt.Println("test")
 	}
 
 }
